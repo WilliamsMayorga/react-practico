@@ -17,5 +17,5 @@ import * as serviceWorker from './serviceWorker';
 
 import HolaMundo from './components/HolaMundo'
 
-render(<HolaMundo/>, document.querySelector('#root'));
+render(<HolaMundo nombre="Williams" edad="29"/>, document.querySelector('#root'));
 serviceWorker.unregister();

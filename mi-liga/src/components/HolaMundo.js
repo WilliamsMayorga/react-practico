@@ -4,11 +4,8 @@ class HolaMundo extends React.Component{
   render(){
     return(
       <div>
-        <p>Hola Mundo</p>
-        <p>Hola Mundo</p>
-        <input />
-        <br/>
-        <hr/>
+        <h2>Hola { this.props.nombre }</h2>
+        <p>{ this.props.edad }</p>
       </div>
     ) 
   }
