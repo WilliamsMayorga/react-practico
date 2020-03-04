@@ -14,8 +14,9 @@
 import React from 'react';
 import { render } from 'react-dom';
 import * as serviceWorker from './serviceWorker';
+import './index.css'
 
-import HolaMundo from './components/HolaMundo'
+import HolaMundo from './components/hola-mundo/HolaMundo'
 
-render(<HolaMundo nombre="Williams" edad="29"/>, document.querySelector('#root'));
+render(<HolaMundo nombre="Williams" edad="29" tipo="nota"/>, document.querySelector('#root'));
 serviceWorker.unregister();
